@@ -1,4 +1,5 @@
-import { Board, PlayerType, VerticalChecker } from "../../src"
+import { Board, PlayerType } from "../../src"
+import { VerticalChecker } from "../../src/result/vertical-checker"
 
 test('Deve finalizar com vitória do jogador O', () => {
     const board = Board.create()
